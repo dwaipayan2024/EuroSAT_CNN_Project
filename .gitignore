@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local datasets and archives
+data/
+datasets/
+EuroSAT_RGB/
+*.zip
+!models/*.pth
+
+# Build, test, cache, and temporary files
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.log
+tmp/
+work/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
